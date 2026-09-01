@@ -1,0 +1,57 @@
+.container{
+    background-color: #001d3d;
+    border: 10px solid rgb(50, 57, 79);
+    border-radius: 50px 15px  50px 0px;
+    padding: 60px;
+    margin: 20px;
+    color: aliceblue;
+    width: 40%;
+    height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.task{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.add button{
+    color: rgb(255, 255, 255);
+    background-color: #fb8500;
+    width: 80px;
+    padding: 5px;
+    border-radius:10px; 
+    font-weight:bold;
+    font-family: sans-serif;
+}
+.add button:hover{
+background-color: #ffc300;
+width: 82px;
+}
+.tasks button{
+    color: rgb(255, 255, 255);
+    background-color: #ffc300;
+    width: 60px;
+    padding: 2px;
+    border-radius:10px;
+        font-weight:bold;
+         margin-left: auto;
+    font-family: sans-serif;
+}
+.tasks button:hover{
+    background-color: #fb8500;
+    width: 62px;
+}
+
