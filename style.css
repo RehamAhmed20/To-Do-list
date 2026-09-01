@@ -1,6 +1,6 @@
 .container{
-    background-color: #001d3d;
-    border: 10px solid rgb(50, 57, 79);
+    background-color: #9f86c0;
+    border: 10px solid #9f86c0;
     border-radius: 50px 15px  50px 0px;
     padding: 60px;
     margin: 20px;
@@ -54,4 +54,3 @@ width: 82px;
     background-color: #fb8500;
     width: 62px;
 }
-
