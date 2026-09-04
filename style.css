@@ -1,12 +1,11 @@
 .container{
-    background-color: #9f86c0;
-    border: 10px solid #9f86c0;
-    border-radius: 50px 15px  50px 0px;
-    padding: 60px;
-    margin: 20px;
-    color: aliceblue;
-    width: 40%;
+    background-color: #76638f;
+    border: #f9bc4c solid 4px;
+    margin: 5%;
+    padding: 40px;
+    width: 70%;
     height: 100%;
+    color: aliceblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
     justify-content: center;
@@ -54,3 +53,9 @@ width: 82px;
     background-color: #fb8500;
     width: 62px;
 }
+
+
+.logo{
+    width: 90px;
+}
+
