@@ -1,0 +1,77 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial,sans-serif;
+
+}
+
+
+.container{
+    background-color: #76638f;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgb(141, 141, 141);
+    padding: 35px;
+    margin: 40px;
+    width: 500px; 
+    
+}
+
+
+.task{
+    display: flex;
+    
+    align-items: center;
+    
+}
+.tasks span{
+    color: #fbe8c3;
+}
+.add button{
+    color: rgb(255, 255, 255);
+    background-color: #fb8500;
+    width: 80px;
+    padding: 5px;
+    border-radius:10px; 
+    font-weight:bold;
+    font-family: sans-serif;
+}
+.add button:hover{
+background-color: #ffc300;
+width: 82px;
+}
+.tasks button{
+    color: rgb(255, 255, 255);
+    background-color: #ffc300;
+    width: 60px;
+    padding: 2px;
+    border-radius:10px;
+    font-weight:bold;
+    
+    font-family: sans-serif;
+}
+.tasks button:hover{
+    background-color: #fb8500;
+    
+}
+
+
+h1{
+    padding-top: 30px;
+    color: #faa307;
+}
+h1 span{
+    color: #fa7c07;
+    font-size: larger;
+    font-weight: bolder;
+}

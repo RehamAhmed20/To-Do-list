@@ -1,30 +1,43 @@
-.container{
-    background-color: #76638f;
-    border: #f9bc4c solid 4px;
-    margin: 5%;
-    padding: 40px;
-    width: 70%;
-    height: 100%;
-    color: aliceblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-   
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    font-family: Arial,sans-serif;
+
+}
+
+
+.container{
+    background-color: #76638f;
+    color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgb(141, 141, 141);
+    padding: 35px;
+    margin: 40px;
+    width: 500px; 
     
 }
+label{
+    color: #fbe8c3;
+}
+
 .task{
     display: flex;
     gap: 10px;
     align-items: center;
     
+}
+.tasks span{
+    color: #fbe8c3;
 }
 .add button{
     color: rgb(255, 255, 255);
@@ -55,7 +68,12 @@ width: 82px;
 }
 
 
-.logo{
-    width: 90px;
+h1{
+    padding-top: 40px;
+    color: #faa307;
 }
-
+h1 span{
+    color: #fa7c07;
+    font-size: larger;
+    font-weight: bolder;
+}
